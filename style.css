@@ -93,7 +93,7 @@ body {
   background: none;
   color: rgba(255, 255, 255, 0.87);
   border: none;
-  width: 8vw;
+  width: 10vw;
 }
 textarea:focus,
 input:focus {
@@ -314,4 +314,31 @@ input:focus {
 }
 .space{
   height: 8vh;
+}
+.pages{
+  display: flex;
+  color: lightseagreen ;
+  margin: 5vh 0;
+  justify-content: center;
+  align-items: center;
+}
+.page-num{
+  background: #333;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 2px;
+}
+.active-page{
+  background: lightseagreen;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 2px;
+  color: #000;
+}
+.page-num:hover{
+  background: lightseagreen;
+  padding: 10px;
+  margin: 2px;
+  border-radius: 2px;
+  color: #000;
 }
